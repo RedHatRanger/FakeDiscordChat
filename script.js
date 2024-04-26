@@ -19,14 +19,14 @@ const messages = [
     username: "CaptainCrunchwrap 🌯",
     message: "Hey @BaronVonTaco, I tink i acidently deleted Google Chrome...\nWhat do i do now?? 💀",
     timestamp: getCurrentTimestamp(),
-    avatar: "./avatar1.jpeg",
+    avatar: "images/avatar1.jpeg",
     color: "orange"
   },
   {
     username: "BaronVonTaco 🌮",
     message: "@CaptainCrunchwrap, don't worry!\nJust try redownloading it again.",
     timestamp: getCurrentTimestamp(addMinutes(new Date(), 1)),
-    avatar: "avatar2.jpeg",
+    avatar: "images/avatar2.jpeg",
     color: "red"
   },
   // Add more messages here
@@ -34,7 +34,7 @@ const messages = [
     username: "CaptainCrunchwrap 🌯",
     message: "😂 okay tanks ill give it a go!",
     timestamp: getCurrentTimestamp(addMinutes(new Date(), 1)),
-    avatar: "avatar1.jpeg",
+    avatar: "images/avatar1.jpeg",
     color: "orange"
   }
 ];
